@@ -595,7 +595,7 @@ st.write("""
 ztest < zcritcal so we do not reject the null hypothesis.
 Thus there is no sufficient evidence to suggest that the average closing price has increased.
 """)
-
+"""
 with st.echo():
     import pandas as pd
     import numpy as np
@@ -779,4 +779,4 @@ with st.echo():
 
 with st.echo():
     r2_score = linear.score(X[t:],y[t:])
-    print("Accuracy :",float("{0:.2f}".format(r2_score*100)))
+    print("Accuracy :",float("{0:.2f}".format(r2_score*100)))"""
