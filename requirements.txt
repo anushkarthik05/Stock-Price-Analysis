@@ -7,4 +7,6 @@ yfinance==0.1.67
 lxml==4.6.3
 pandas-datareader==0.10.0
 pandas-profiling==3.0.0
-
+scikit-learn==1.0
+scipy==1.7.1
+seaborn==0.11.2
